@@ -1,0 +1,15 @@
+.row-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:500px ;
+    flex-basis:100px ;
+}
+.flex-container :nth-child(1){
+    background-color: teal ;
+    flex: 8 0 200px;
+}
+
+.flex-container :nth-child(2){
+    background-color: aqua ;
+    flex: 12; 
+}

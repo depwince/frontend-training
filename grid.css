@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    min-height: 100vh;
+    grid-template-rows: 90px auto 200px ;
+    min-height:100vh ;
+    gap: 90px;
+}
+
+nav{
+    background-color:gold ;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-template-rows: 90;
+}
+main {
+    background-color:navy ;
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
+
+aside {
+    background-color:aqua ;
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+footer{
+    background-color: green;
+    grid-column-start:1 ;
+    grid-column-end: 9;
+}
